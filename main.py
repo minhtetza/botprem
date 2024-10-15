@@ -4,7 +4,7 @@ import time
 from telebot import types
 from gatet import Tele
 import os
-token = '6792487855:AAGJxjPEv9n1-LEVpcSV9Ca0MrySwzEJhZc' #bottoken
+token = '7336963132:AAE-kx0842Ctb1wa5DL2LKrJ0pURs89P-QU' #bottoken
 bot=telebot.TeleBot(token,parse_mode="HTML")
 subscriber = '6191863486'
 allowed_users = ['6191863486']  #Your ID
