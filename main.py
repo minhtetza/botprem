@@ -13,7 +13,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7519786086:AAFt0dqsL_pWIemheTxZNeQkorUKXxo3Zzo'
+token = '7519786086:AAFDbp6q0u_gk_fUpCFVJpOhHk-V3xPoAjs'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=5688879944 
 command_usage = {}
@@ -46,7 +46,7 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == '𝗙𝗥𝗘𝗘':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="😈 𝗝𝗢𝗜𝗡 🎉", url="https://t.me/trusted2o0")
+			contact_button = types.InlineKeyboardButton(text="😈 𝗝𝗢𝗜𝗡 🎉", url="https://t.me/AboutGSIX")
 			keyboard.add(contact_button)
 			random_number = random.randint(33, 82)
 			photo_url = f'https://t.me/bkddgfsa/{random_number}'
@@ -64,13 +64,13 @@ Hello {name}
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="😈 𝗝𝗢𝗜𝗡 🎉", url="https://t.me/trusted2o0")
+		contact_button = types.InlineKeyboardButton(text="😈 𝗝𝗢𝗜𝗡 🎉", url="https://t.me/AboutGSIX")
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(33, 82)
@@ -139,7 +139,7 @@ def main(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -166,7 +166,7 @@ def main(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -274,21 +274,21 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐖𝐡𝐢𝐥𝐞 𝐘𝐨𝐮𝐫 𝐂𝐚𝐫𝐝𝐬 𝐀𝐫𝐞 𝐁𝐞𝐢𝐧𝐠 𝐂𝐡𝐞𝐜𝐤 𝐀𝐭 𝐓𝐡𝐞 𝐆𝐚𝐭𝐞𝐰𝐚𝐲 {gate}
-𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/trusted2o0'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
+𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
 					msg=f'''
-<a href='t.me/trusted2o0'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/trusted2o0'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/trusted2o0'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/trusted2o0'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/trusted2o0'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
-<a href='t.me/trusted2o0'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/trusted2o0'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/trusted2o0'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 					if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -389,18 +389,18 @@ def menu_callback(call):
 𝐁𝐨𝐭 𝐁𝐲 <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>''', reply_markup=mes)
 					
 					msg=f'''
-<a href='t.me/trusted2o0'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/trusted2o0'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/trusted2o0'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/trusted2o0'>┗━━━━━━━⊛</a>
-<a href='t.me/trusted2o0'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
-<a href='t.me/trusted2o0'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 1$</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
-<a href='t.me/trusted2o0'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/trusted2o0'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/trusted2o0'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 					if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -459,7 +459,7 @@ def respond_to_sex(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -486,7 +486,7 @@ def respond_to_sex(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -554,33 +554,33 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''<a href='t.me/trusted2o0'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/trusted2o0'>┏━━━━━━━⍟	</a>		
-<a href='t.me/trusted2o0'>┃</a>𝐂𝐂: <code>{cc}</code>
-<a href='t.me/trusted2o0'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/trusted2o0'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/trusted2o0'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
-
-<a href='t.me/trusted2o0'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
-
-<a href='t.me/trusted2o0'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
-	msgd=f'''
-<a href='t.me/trusted2o0'>-</a> 𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
-<a href='t.me/trusted2o0'>┏━━━━━━━⍟</a>			
-<a href='t.me/trusted2o0'>┃</a>𝐂𝐂: <code>{cc}</code></a>
+	msg=f'''<a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/AboutGSIX'>┏━━━━━━━⍟	</a>		
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂: <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━━━━━⊛</a>
-<a href='t.me/trusted2o0'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
-<a href='t.me/trusted2o0'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
 
-<a href='t.me/trusted2o0'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/trusted2o0'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/trusted2o0'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
+	msgd=f'''
+<a href='t.me/AboutGSIX'>-</a> 𝐃𝐞𝐜𝐥𝐢𝐧𝐞𝐝 ❌
+<a href='t.me/AboutGSIX'>┏━━━━━━━⍟</a>			
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂: <code>{cc}</code></a>
+<a href='t.me/AboutGSIX'>┗━━━━━━━━━━━⊛</a>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Your Card Declined 🚫</code>
+
+<a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+
+<a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a>'''
 	if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
@@ -693,7 +693,7 @@ def respond_to_sex(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -720,7 +720,7 @@ def respond_to_sex(message):
 
 𝗕𝗶𝗻𝗮𝗻𝗰𝗲 𝗨𝗦𝗗𝗧 𝗧𝗥𝗖 𝗕𝗧𝗖 𝗕𝗡𝗕 𝗘𝗧𝗛 𝗧𝗢𝗡
 
-𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/trusted2o0
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 https://t.me/AboutGSIX
 ━━━━━━━━━━━━━━━━━
 @Ownerxxxxx Buy here!</b>
 ''',reply_markup=keyboard)
@@ -779,9 +779,9 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''<b><a href='t.me/trusted2o0'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/trusted2o0'>┏━━━━━━━⍟	</a>		
-<a href='t.me/trusted2o0'>┃</a>𝐂𝐂: <code>{cc}</code>
+	msg=f'''<b><a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/AboutGSIX'>┏━━━━━━━⍟	</a>		
+<a href='t.me/AboutGSIX'>┃</a>𝐂𝐂: <code>{cc}</code>
 <a href='t.me/AboutGSIX'>┗━━━━━━━━━━━⊛</a>
 <a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>STRIPE CHARGE 3$</code>		
 <a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>SUCCESSFUL 🟢</code>
