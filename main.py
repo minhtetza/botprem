@@ -4,19 +4,19 @@ import time
 from telebot import types
 from gatet import Tele
 import os
-token = '7519786086:AAFDbp6q0u_gk_fUpCFVJpOhHk-V3xPoAjs' #bottoken
+token = '7689453354:AAENhsguZmeVMrVvdzextZFpa6jYRE6_M98' #bottoken
 bot=telebot.TeleBot(token,parse_mode="HTML")
-subscriber = '5688879944'
-allowed_users = ['5688879944']  #Your ID
+subscriber = '6837072339'
+allowed_users = ['6837072339']  #Your ID
 @bot.message_handler(commands=["start"])
 def start(message):
     if str(message.chat.id) not in allowed_users:
-        bot.reply_to(message, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @trusted2o0")
+        bot.reply_to(message, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @Ownerxxxxx")
         return
     bot.reply_to(message, "𝐒𝐞𝐧𝐝 𝐭𝐡𝐞 𝐭𝐱𝐭 𝐟𝐢𝐥𝐞 𝐧𝐨𝐰")
 @bot.message_handler(commands=["add"])
 def add_user(message):
-    if str(message.chat.id) == '5688879944':  # Only bot owner can add new users
+    if str(message.chat.id) == '6837072339':  # Only bot owner can add new users
         try:
             new_user_id = message.text.split()[1]  # Extract new user ID from the command
             allowed_users.append(new_user_id)
@@ -28,7 +28,7 @@ def add_user(message):
 @bot.message_handler(content_types=["document"])
 def main(message):
 	if str(message.chat.id) not in allowed_users:
-		bot.reply_to(message, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @trusted2o0")
+		bot.reply_to(message, "🚫 𝐘𝐨𝐮 𝐜𝐚𝐧𝐧𝐨𝐭 𝐮𝐬𝐞 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐭𝐨 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐭𝐨 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐚 𝐛𝐨𝐭 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 @BinServiceHub1")
 		return
 	dd = 0
 	live = 0
@@ -46,7 +46,7 @@ def main(message):
 				current_dir = os.getcwd()
 				for filename in os.listdir(current_dir):
 					if filename.endswith(".stop"):
-						bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @trusted2o0')
+						bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @Ownerxxxxx')
 						os.remove('stop.stop')
 						return
 				try: data = requests.get('https://bins.antipublic.cc/bins/'+cc[:6]).json()
@@ -76,10 +76,20 @@ def main(message):
 				except Exception as e:
 					print(e)
 					last = "Error"
-				if 'Stripe Error: Your card was declined.' in last:
-					last='Your Card Was Declined'
-				elif 'Declined - Call Issuer' in last:
-					last='Declined - Call Issuer'
+				if 'Your card is declined' in last:
+					last='Gateway Rejected: fraud'
+				if 'API failed to fetch' in last:
+				    last='Code 2009. No Such Issuer'
+				if 'Request Timeout' in last:
+					last='Code 2014. Processor Declined - Fraud Suspectes'
+				if 'Card Expired' in last:
+						last='Your Card Expired'
+				if 'Live' in last:
+					    last='APPROVED ✅'
+				if 'Unable to authenticate' in last:
+				    last='Declined - Call Issuer'
+				elif 'Proxy error' in last:
+					last='Call Issuer. Pick Up Card. '
 				mes = types.InlineKeyboardMarkup(row_width=1)
 				cm1 = types.InlineKeyboardButton(f"• {cc} •", callback_data='u8')
 				status = types.InlineKeyboardButton(f"• 𝐒𝐓𝐀𝐓𝐔𝐒  : {last} ", callback_data='u8')
@@ -92,22 +102,22 @@ def main(message):
 				end_time = time.time()
 				execution_time = end_time - start_time
 				bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''𝐖𝐚𝐢𝐭 𝐟𝐨𝐫 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 
-𝐁𝐲 ➜ <a href='t.me/trusted2o0'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> ''', reply_markup=mes)
+𝐁𝐲 ➜ <a href='t.me/AboutGSIX'>『ᝯׁhׁׅ֮ꪱׁׅtׁׅꪀׁׅᧁׁꫀׁׅܻ 』【𝐂𝐇】ᶜⁿꪜ 💤</a> ''', reply_markup=mes)
 				msg = f'''
 <a href='t.me/AboutGSIX'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
 <a href='t.me/AboutGSIX'>┏━━━━━━━━━━━⍟</a>			
 <a href='t.me/AboutGSIX'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/AboutGSIX'>┗━━━━━━━⊛</a>
-<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
-<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Thank You For Donation🎉</code>
+<a href='t.me/AboutGSIX'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>CCN CHARGE</code>		
+<a href='t.me/AboutGSIX'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successfully 🎉</code>
 
 <a href='t.me/AboutGSIX'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
 <a href='t.me/AboutGSIX'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/BinServiceHub1'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
 				print(last)
-				if 'success' in last or 'Your card has insufficient funds' in last or 'Thank you for' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
+				if 'Live' in last or 'Your card has insufficient funds' in last or 'APPROVED ✅' in last or 'Your card does not support this type of purchase.' in last or "Your card's security code is invalid." in last:
 					live += 1
 					bot.reply_to(message, msg)
 				elif 'Card Not Activated' in last:
@@ -125,7 +135,7 @@ def main(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/trusted2o0'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/AboutGSIX'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
 					live += 1
 					bot.reply_to(message, msg)
 				elif 'Card Not Activated' in last:
@@ -143,17 +153,17 @@ def main(message):
 <a href='t.me/AboutGSIX'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
 <a href='t.me/AboutGSIX'>-</a> 𝐓𝐢𝐦𝐞: <code>2{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
-<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/trusted2o0'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/AboutGSIX'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/BinServiceHub1'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
 					live += 1
 					bot.reply_to(message, msg)
 				elif 'Card Not Activated' in last:
 					incorrect+=1
 				else:
 					dd += 1
-					time.sleep(20)
+					time.sleep(1)
 	except Exception as e:
 		print(e)
-	bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @Ownerxxxxx')
+	bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @BinServiceHub1')
 @bot.callback_query_handler(func=lambda call: call.data == 'stop')
 def menu_callback(call):
 	with open("stop.stop", "w") as file:
